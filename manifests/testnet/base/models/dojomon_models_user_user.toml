@@ -1,0 +1,15 @@
+kind = "DojoModel"
+class_hash = "0x7ed86f8d6e2ea6c1c76903825009edb32efb1d7f4fcc33857facd1f0b2e6f5e"
+original_class_hash = "0x7ed86f8d6e2ea6c1c76903825009edb32efb1d7f4fcc33857facd1f0b2e6f5e"
+abi = "manifests/testnet/abis/base/models/dojomon_models_user_user.json"
+name = "dojomon::models::user::user"
+
+[[members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[members]]
+name = "inventory_cap"
+type = "u16"
+key = false

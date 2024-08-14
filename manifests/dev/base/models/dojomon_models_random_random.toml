@@ -1,0 +1,20 @@
+kind = "DojoModel"
+class_hash = "0x13e6c9948e3bbb43af7884b02f0a2edde8eef85672bf899ceb340912cc93988"
+original_class_hash = "0x13e6c9948e3bbb43af7884b02f0a2edde8eef85672bf899ceb340912cc93988"
+abi = "manifests/dev/abis/base/models/dojomon_models_random_random.json"
+name = "dojomon::models::random::random"
+
+[[members]]
+name = "id"
+type = "u8"
+key = true
+
+[[members]]
+name = "s0"
+type = "u128"
+key = false
+
+[[members]]
+name = "s1"
+type = "u128"
+key = false

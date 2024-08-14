@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  dev:
+    build: .
+    image: dev-dojomon
+    volumes:
+      - ~/.ssh:/root/.ssh
+      - ../..:/workspaces:cached
+    command: sleep infinity

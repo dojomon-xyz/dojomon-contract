@@ -1,0 +1,20 @@
+kind = "DojoModel"
+class_hash = "0x182f9b0c61b5ea186a525ce6ca1f4bb6c5609956d13cf90bfe8f46c9260da10"
+original_class_hash = "0x182f9b0c61b5ea186a525ce6ca1f4bb6c5609956d13cf90bfe8f46c9260da10"
+abi = "manifests/testnet/abis/base/models/dojomon_events_catched.json"
+name = "dojomon::events::catched"
+
+[[members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[members]]
+name = "succeed"
+type = "bool"
+key = false
+
+[[members]]
+name = "item_id"
+type = "u16"
+key = false

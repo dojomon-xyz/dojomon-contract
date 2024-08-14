@@ -1,0 +1,115 @@
+[world]
+kind = "WorldContract"
+class_hash = "0x3f63cecdc4964acafb921ba2934c6507d1b3c344edb64c2762cf08053169ab9"
+original_class_hash = "0x3f63cecdc4964acafb921ba2934c6507d1b3c344edb64c2762cf08053169ab9"
+abi = "manifests/testnet/abis/deployments/dojo_world_world.json"
+address = "0x649fb4608103d24f4935f28be572309324dad24be7fdb3868d33b5e97874276"
+transaction_hash = "0x73dde7c9ca873eeb4cd6af302518007cee1a3b09f95217078fb5c31722fbcc2"
+seed = "dojomon"
+name = "dojo::world::world"
+
+[world.metadata]
+profile_name = "testnet"
+rpc_url = "https://starknet-sepolia.g.alchemy.com/starknet/version/rpc/v0_7/mZyFr_90NKxRaHUM2mgreCIsuvAGuRU-"
+
+[base]
+kind = "Class"
+class_hash = "0x22f3e55b61d86c2ac5239fa3b3b8761f26b9a5c0b5f61ddbd5d756ced498b46"
+original_class_hash = "0x22f3e55b61d86c2ac5239fa3b3b8761f26b9a5c0b5f61ddbd5d756ced498b46"
+name = "dojo::base::base"
+
+[[contracts]]
+kind = "DojoContract"
+address = "0x399f0ea75c8ed4ff3e224e3ea2b674261d77eabe9d979654adf813059934daf"
+class_hash = "0x2d261acf9d8cd521eeaebdc6f3d4f8743ebe9a10c088e5ce378162a0a03ebc7"
+original_class_hash = "0x2d261acf9d8cd521eeaebdc6f3d4f8743ebe9a10c088e5ce378162a0a03ebc7"
+base_class_hash = "0x22f3e55b61d86c2ac5239fa3b3b8761f26b9a5c0b5f61ddbd5d756ced498b46"
+abi = "manifests/testnet/abis/deployments/contracts/dojomon_systems_game_actions_GameActions.json"
+reads = []
+writes = []
+computed = []
+init_calldata = []
+name = "dojomon::systems::game_actions::GameActions"
+
+[[models]]
+kind = "DojoModel"
+class_hash = "0x182f9b0c61b5ea186a525ce6ca1f4bb6c5609956d13cf90bfe8f46c9260da10"
+original_class_hash = "0x182f9b0c61b5ea186a525ce6ca1f4bb6c5609956d13cf90bfe8f46c9260da10"
+abi = "manifests/testnet/abis/deployments/models/dojomon_events_catched.json"
+name = "dojomon::events::catched"
+
+[[models.members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[models.members]]
+name = "succeed"
+type = "bool"
+key = false
+
+[[models.members]]
+name = "item_id"
+type = "u16"
+key = false
+
+[[models]]
+kind = "DojoModel"
+class_hash = "0x17e645733edbeeda83f8cb4a8043a8ea221826c1d3bab7f5e39c882962d148a"
+original_class_hash = "0x17e645733edbeeda83f8cb4a8043a8ea221826c1d3bab7f5e39c882962d148a"
+abi = "manifests/testnet/abis/deployments/models/dojomon_models_item_item.json"
+name = "dojomon::models::item::item"
+
+[[models.members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[models.members]]
+name = "item_id"
+type = "u8"
+key = true
+
+[[models.members]]
+name = "amount"
+type = "u128"
+key = false
+
+[[models]]
+kind = "DojoModel"
+class_hash = "0x13e6c9948e3bbb43af7884b02f0a2edde8eef85672bf899ceb340912cc93988"
+original_class_hash = "0x13e6c9948e3bbb43af7884b02f0a2edde8eef85672bf899ceb340912cc93988"
+abi = "manifests/testnet/abis/deployments/models/dojomon_models_random_random.json"
+name = "dojomon::models::random::random"
+
+[[models.members]]
+name = "id"
+type = "u8"
+key = true
+
+[[models.members]]
+name = "s0"
+type = "u128"
+key = false
+
+[[models.members]]
+name = "s1"
+type = "u128"
+key = false
+
+[[models]]
+kind = "DojoModel"
+class_hash = "0x7ed86f8d6e2ea6c1c76903825009edb32efb1d7f4fcc33857facd1f0b2e6f5e"
+original_class_hash = "0x7ed86f8d6e2ea6c1c76903825009edb32efb1d7f4fcc33857facd1f0b2e6f5e"
+abi = "manifests/testnet/abis/deployments/models/dojomon_models_user_user.json"
+name = "dojomon::models::user::user"
+
+[[models.members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[models.members]]
+name = "inventory_cap"
+type = "u16"
+key = false

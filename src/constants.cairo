@@ -1,0 +1,2 @@
+const MAX_BLOCK_TIME: u64 = 390;    // 6m30s = 390s
+const DEFAULT_INVENTORY_CAPACITY: u16 = 16;

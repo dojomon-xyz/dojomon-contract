@@ -1,0 +1,20 @@
+kind = "DojoModel"
+class_hash = "0x17e645733edbeeda83f8cb4a8043a8ea221826c1d3bab7f5e39c882962d148a"
+original_class_hash = "0x17e645733edbeeda83f8cb4a8043a8ea221826c1d3bab7f5e39c882962d148a"
+abi = "manifests/testnet/abis/base/models/dojomon_models_item_item.json"
+name = "dojomon::models::item::item"
+
+[[members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[members]]
+name = "item_id"
+type = "u8"
+key = true
+
+[[members]]
+name = "amount"
+type = "u128"
+key = false
